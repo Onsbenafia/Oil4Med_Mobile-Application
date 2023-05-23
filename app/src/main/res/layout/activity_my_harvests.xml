@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyHarvestsActivity"
+    android:background="@drawable/ecran">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="383dp"
+        android:layout_height="298dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23">
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="FieldName"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Harvest Date"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Olive quantity"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="State"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="252dp"
+        android:background="@drawable/btncolor2"
+        android:text="Add harvest"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btncolor2"
+        android:text="Detail of the harvest"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/btncolor2"
+        android:text="Calender"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="1dp"
+        android:text="Date "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        android:textSize="15dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

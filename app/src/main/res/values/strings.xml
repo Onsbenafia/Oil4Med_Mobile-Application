@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application_Oil4Med</string>
+    <string name="hyperlink">Please visit <a href="http://oil4med.eu/index.php/project-2/">Oil4Med</a></string>
+</resources>

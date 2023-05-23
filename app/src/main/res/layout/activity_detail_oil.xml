@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailOilActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="59dp"
+        android:text="Moll Name:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="206dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="Reception Date :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate2"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="211dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="38dp"
+        android:text="Extraction Date :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate3"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/editTextDate3"
+        android:layout_width="165dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="112dp"
+        android:text="Quality:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName10"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="161dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:text="For Sale:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName11"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="89dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="yes/no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="15dp"
+        android:text="Price :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
+        android:text="Stored Area"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName13"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="17dp"
+        android:text="Packaging date :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate4"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="124dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="177dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:hint="..................."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+    <EditText
+        android:id="@+id/editTextDate4"
+        android:layout_width="159dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="6dp"
+        android:text="Water per 100kg :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName15"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:text="avg MixinigTime : "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName16"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="10dp"
+        android:text="PressTemp :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName17"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:text="oilClass :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName18"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:text="chain id :"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName19"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="111dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="............."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="162dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=".............."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="178dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="..............."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName16" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="..............."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="120dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="................."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName18" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

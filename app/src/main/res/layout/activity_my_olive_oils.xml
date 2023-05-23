@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyOliveOilsActivity"
+    android:background="@drawable/ecran">
+
+    <TextView
+        android:id="@+id/texteyear2"
+        android:layout_width="155dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="136dp"
+        android:background="@color/white"
+        android:text=" Year : 2023"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="408dp"
+        android:layout_height="371dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texteyear2">
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Production Date"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Mill"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Oil quantity"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="quality"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Stocking area"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Packeted"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="State"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="143dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/btncolor2"
+        android:text="Detail of the oil"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
